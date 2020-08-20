@@ -42,7 +42,7 @@ class RadialBar extends PureComponent {
       cy: PropTypes.number,
       innerRadius: PropTypes.number,
       outerRadius: PropTypes.number,
-      value: PropTypes.value,
+      value: PropTypes.any,
     })),
     legendType: PropTypes.oneOf(LEGEND_TYPES),
     tooltipType: PropTypes.oneOf(TOOLTIP_TYPES),

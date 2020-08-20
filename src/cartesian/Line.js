@@ -63,7 +63,7 @@ class Line extends PureComponent {
     points: PropTypes.arrayOf(PropTypes.shape({
       x: PropTypes.number,
       y: PropTypes.number,
-      value: PropTypes.value,
+      value: PropTypes.any,
     })),
 
     onAnimationStart: PropTypes.func,
