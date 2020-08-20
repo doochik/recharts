@@ -469,7 +469,7 @@ Line.propTypes = _objectSpread({}, PRESENTATION_ATTRIBUTES, {}, EVENT_ATTRIBUTES
   points: PropTypes.arrayOf(PropTypes.shape({
     x: PropTypes.number,
     y: PropTypes.number,
-    value: PropTypes.value
+    value: PropTypes.any
   })),
   onAnimationStart: PropTypes.func,
   onAnimationEnd: PropTypes.func,

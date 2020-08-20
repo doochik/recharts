@@ -307,7 +307,7 @@ RadialBar.propTypes = _objectSpread({}, PRESENTATION_ATTRIBUTES, {
     cy: PropTypes.number,
     innerRadius: PropTypes.number,
     outerRadius: PropTypes.number,
-    value: PropTypes.value
+    value: PropTypes.any
   })),
   legendType: PropTypes.oneOf(LEGEND_TYPES),
   tooltipType: PropTypes.oneOf(TOOLTIP_TYPES),
